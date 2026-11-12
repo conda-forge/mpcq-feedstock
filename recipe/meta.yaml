@@ -1,5 +1,5 @@
 {% set name = "mpcq" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mpcq-{{ version }}.tar.gz
-  sha256: 9e287de9f04e8132cd9cc48c0102e24e9a7d9b70f85904547c85e0f85a62c989
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/mpcq-{{ version }}.tar.gz
+  sha256: cf8d4325152853d17465267e554288aa59bdf07ccacbe5ff89552d1e5d614e91
 
 build:
   noarch: python
